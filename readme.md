@@ -1,17 +1,18 @@
 # User Interface Prototype
 
-Better Photos is the front end prototype of an application for photographers to publish and solicit feedback about their photographs. This academic project, conceived and taught by ByteGrad.com illustrates the use of Sass and best practices in CSS as of 2022.
+Better Photos is the front end of an application for photographers to publish and solicit feedback about their photographs. This academic project, conceived and taught by ByteGrad.com, illustrates best practices in CSS.
 
 ### Features
 
 The prototype uses or contains:
 
-- Variables for palette and commonly reused values
+- Layout with Flexbox and CSS Grid
+- Variables for commonly reused values such as color
 - Block Element Modifier (BEM) syntax
 - Custom CSS Reset for page normalization across browsers
 - REM font sizing for page scalability and accessibility
 - Controlled animations and other effects for interest and learnability
-- Media queries for responsive layout changes as the screen narrows
+- Media queries for responsive layout changes
 
 ### Deployment
 
