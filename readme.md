@@ -1,30 +1,18 @@
-**START APPLICATION**
-Review Bytegrad.
+# User Interface Prototype
 
-**NPM Necessary Libraries**
-Sass works with NPM and Node. Libraries enable you to (1) write css with variables for palette, animations, and more. And (2) to optimize your css, (3) auto-prefix for edge case vendor browser support, and (4) compile a minified version of your css for production.
+Better Photos is the front end prototype of an application for photographers to publish and solicit feedback about their photographs. This academic project, conceived and taught by ByteGrad.com illustrates the use of Sass and best practices in CSS as of 2022.
 
-- Sass
-- csso-cli
-- postcss
-- postcss-cli
-- autoprefixer
+### Features
 
-**CSS SCRIPTS**
-Look in package.json "scripts" for the pipeline that turns raw sass into production-ready css.
+The prototype uses or contains:
 
-**RESET RELATIVE UNITS**
-REM is relative to user setting. Default is 1 rem = 16px. Or 1 rem = 10px, if you scale your html default in step a below.
+- Variables for palette and commonly reused values
+- Block Element Modifier (BEM) syntax
+- Custom CSS Reset for page normalization across browsers
+- REM font sizing for page scalability and accessibility
+- Controlled animations and other effects for interest and learnability
+- Media queries for responsive layout changes as the screen narrows
 
-1. Add to style sheet: html {font-size: 100%; OR font-size: 62.5%}
-2. Replace px fontsizes with rem units throughout
-   - Translate specs like font-size 14px into .875rem.
-   - Better yet, translate 14 into 1.4 rem, if you change to 62.5.
-3. Replace px layouts with rem units throughout.
-   - Translate specs like width 1280px into 77.5rem.
+### Deployment
 
-**MEDIA QUERIES**
-Use the em unit. 1 em is 1 rem is browser font size (usually 16px or 10px if you use html font-size: 62.5%). There's a bug in Safari, so we use em here.
-
-**CONVERSION**
-You must use rems/ems. Do it manually in process, convert mathematically afterward, or convert with an npm package during build.
+View the site at https://markacody.github.io/photos-app-ui/
